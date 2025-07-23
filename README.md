@@ -2,7 +2,7 @@
 
 This is a content-based movie recommendation system built with Python and Streamlit.
 
-> **Live App**: (https://your-streamlit-app-link.streamlit.app)
+> **Live App**: (https://movie-recommender-b7adrvyq6x85bc3voxu6ac.streamlit.app)
 
 ## Features
 - Recommends similar movies based on plot descriptions
@@ -26,7 +26,7 @@ This is a content-based movie recommendation system built with Python and Stream
 
 ## Installation (for local use)
 ```bash
-git clone https://github.com/yourusername/movie-recommender
+git clone https://github.com/Mustafa-Temizel/movie-recommender
 cd movie-recommender
 pip install -r requirements.txt
 streamlit run app.py
