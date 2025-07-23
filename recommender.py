@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from tmdb_api import get_popular_movies
 
 
-movies = get_popular_movies()
+movies = get_popular_movies(pages=5)
 
 
 df = pd.DataFrame(movies)
