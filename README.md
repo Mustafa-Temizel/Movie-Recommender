@@ -23,3 +23,10 @@ This is a content-based movie recommendation system built with Python and Stream
 2. Cleans and vectorizes overviews using TF-IDF
 3. Computes similarity between movies
 4. Suggests top 5 similar movies when a user enters a film name
+
+## Installation (for local use)
+```bash
+git clone https://github.com/yourusername/movie-recommender
+cd movie-recommender
+pip install -r requirements.txt
+streamlit run app.py
