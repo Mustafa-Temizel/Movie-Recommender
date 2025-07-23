@@ -11,7 +11,7 @@ def get_popular_movies(pages=5):
         params = {
             "api_key": API_KEY,
             "language": "en-US",
-            "page": page
+            "page": pages
         }
         response = requests.get(url, params=params)
         data = response.json()
