@@ -26,3 +26,4 @@ def get_popular_movies(pages=5):
 
     return all_movies
 
+
