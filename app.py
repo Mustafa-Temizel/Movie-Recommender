@@ -8,7 +8,7 @@ st.title("🎬 Film Tavsiye Sistemi")
 st.markdown("Sevdiğin bir filmi gir, sana benzer filmleri önerelim!")
 
 
-movies = get_popular_movies()
+movies = get_popular_movies(pages=5)
 movie_titles = [m["title"] for m in movies]
 
 
